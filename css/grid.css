@@ -5,11 +5,18 @@
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
 }
 
 .content{
     background-color: skyblue;
     border: 2px solid;
+    box-shadow: 2px 2px 2px black;
+}
+
+.content:active{
+    background-color: orange;
+    transform: scale(.95);
 }
