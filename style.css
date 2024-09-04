@@ -12,3 +12,15 @@
     border: 2px solid;
     background-color: skyblue;
 }
+
+.content5{
+    text-align: justify;
+    overflow: auto;
+    padding: 10px;
+    background-color: olive;
+}
+
+.content3{
+    background-image: url(background-image: url("https://picsum.photos/id/1020/600/400"););
+    
+}
