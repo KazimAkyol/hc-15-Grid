@@ -1,57 +1,57 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
-  border: 2px solid;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid;
 }
 
 .container {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12 1fr);
-  grid-template-rows: 250px 1fr 4fr 1fr;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: 250px 1fr 4fr 1fr;
 }
 
 header {
-  background-color: rgb(34, 27, 168);
-  grid-column: span 12;
+    background-color: rgb(34, 27, 168);
+    grid-column: span 12;
 }
 
 header img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
-  background-color: cadetblue;
-  grid-column: span 12;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
+    background-color: cadetblue;
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 
 aside {
-  background-color: coral;
-  grid-column: span 3;
-  /* display: grid;
+    background-color: coral;
+    grid-column: span 3;
+    /* display: grid;
     place-items: center; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-aside ul li{
+aside ul li {
     list-style-type: none;
 }
 
 main {
-  background-color: orange;
-  grid-column: span 9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    background-color: orange;
+    grid-column: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .date {
@@ -66,28 +66,28 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 footer {
-  background-color: fuchsia;
-  grid-column: span 12;
-  display: flex;
-  font-size: 3rem;
-  color: yellow;
+    background-color: fuchsia;
+    grid-column: span 12;
+    display: flex;
+    font-size: 3rem;
+    color: yellow;
 }
 
 .tr {
-  background-color: red;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dl {
-  background-color: blue;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: blue;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

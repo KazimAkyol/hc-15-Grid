@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 200px 500px 200px 100px;
     grid-template-rows: 100px 400px;
 }
 
-.content{
+.content {
     border: 2px solid;
     background-color: darkcyan;
 }
 
-.content5{
+.content5 {
     text-align: justify;
     overflow: auto;
     padding: 10px;
